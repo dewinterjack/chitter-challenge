@@ -1,4 +1,5 @@
 require 'sinatra'
+# call database setup
 
 set :root, File.dirname(__FILE__)
 
