@@ -1,2 +1,2 @@
 require_relative 'login'
-require_relative 'home'
+require_relative 'new_peep'

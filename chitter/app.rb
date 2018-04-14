@@ -2,7 +2,6 @@ require 'sinatra'
 require './helpers/db_setup_helper'
 require './models/peep'
 
-
 configure do
   Peep.auto_upgrade!
 end

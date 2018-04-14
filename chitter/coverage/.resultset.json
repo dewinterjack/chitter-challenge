@@ -5,25 +5,25 @@
         1,
         1,
         1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         1,
         1,
         null,
         null,
-        1,
         null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1
+        null
       ],
       "/Users/jd/chitter-challenge/chitter/helpers/db_setup_helper.rb": [
         1,
@@ -57,8 +57,13 @@
       "/Users/jd/chitter-challenge/chitter/routes/login.rb": [
 
       ],
-      "/Users/jd/chitter-challenge/chitter/routes/home.rb": [
-
+      "/Users/jd/chitter-challenge/chitter/routes/new_peep.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        null
       ],
       "/Users/jd/chitter-challenge/chitter/spec/features/peeps_new_spec.rb": [
         1,
@@ -72,6 +77,6 @@
         null
       ]
     },
-    "timestamp": 1523717501
+    "timestamp": 1523717856
   }
 }
