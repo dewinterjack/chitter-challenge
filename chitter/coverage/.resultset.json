@@ -5,7 +5,6 @@
         1,
         1,
         1,
-        1,
         null,
         1,
         1,
@@ -23,7 +22,7 @@
         null,
         null,
         null,
-        null
+        1
       ],
       "/Users/jd/chitter-challenge/chitter/helpers/db_setup_helper.rb": [
         1,
@@ -64,19 +63,8 @@
         0,
         null,
         null
-      ],
-      "/Users/jd/chitter-challenge/chitter/spec/features/peeps_new_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        null,
-        null,
-        null
       ]
     },
-    "timestamp": 1523717856
+    "timestamp": 1523718405
   }
 }

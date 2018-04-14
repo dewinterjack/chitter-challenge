@@ -14,7 +14,7 @@ class Chitter < Sinatra::Base
   end
 
   get '/peeps' do
-    "Welcome to Chitter!"
+    erb :index
   end
 end
 
