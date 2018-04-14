@@ -1,5 +1,7 @@
 require 'sinatra'
-# call database setup
+require './helpers/db_setup_helper.rb'
+require './models/peep'
+DataMapper.auto_upgrade!
 
 set :root, File.dirname(__FILE__)
 

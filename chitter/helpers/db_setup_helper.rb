@@ -1,6 +1,7 @@
-if ENV['RACK_ENV'] == test then 
-  DataMapper.setup('postgres://localhost/chitter_test')
+require 'dm-core'
+
+if ENV['RACK_ENV'] == 'test' then 
+  DataMapper.setup(:default, 'postgres://localhost/chitter_test')
 else
-  DataMapper.setup('postgres://localhost/chitter')
-  
-DataMapper.auto_upgrade!
+  DataMapper.setup(:default, 'postgres://localhost/chitter')
+end
