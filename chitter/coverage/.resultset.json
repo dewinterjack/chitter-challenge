@@ -15,11 +15,11 @@
         null,
         1,
         1,
-        0,
+        1,
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         null,
@@ -63,12 +63,15 @@
       "/Users/jd/chitter-challenge/chitter/spec/features/peeps_new_spec.rb": [
         1,
         1,
-        null,
+        1,
+        1,
+        0,
+        0,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1523717197
+    "timestamp": 1523717501
   }
 }
