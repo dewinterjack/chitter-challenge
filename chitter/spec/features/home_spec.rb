@@ -1,1 +1,0 @@
-# Feature tests for home page (view all peeps)

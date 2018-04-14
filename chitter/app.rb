@@ -1,5 +1,5 @@
 require 'sinatra'
-require './helpers/db_setup_helper.rb'
+require './helpers/db_setup_helper'
 require './models/peep'
 
 

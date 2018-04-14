@@ -1,1 +1,0 @@
-# expect datamapper.setup to recieve test db string
