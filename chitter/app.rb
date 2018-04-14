@@ -11,6 +11,10 @@ set :root, File.dirname(__FILE__)
 
 class Chitter < Sinatra::Base
   get '/' do
+    redirect '/peeps'
+  end
+
+  get '/peeps' do
     "Welcome to Chitter!"
   end
 end
