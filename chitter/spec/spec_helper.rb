@@ -1,7 +1,8 @@
 require 'simplecov'
 require 'simplecov-console'
-require 'rack/test'
+# require 'rack/test'
 require 'rspec'
+require './app'
 
 ENV['RACK_ENV'] = 'test'
 
@@ -19,11 +20,11 @@ RSpec.configure do |config|
     puts "\e[33mTry it now! Just run: rubocop\e[0m"
   end
 
-  module RSpecMixin
-    include Rack::Test::Methods
-    def app() Chitter end
-  end
+  # module RSpecMixin
+  #   include Rack::Test::Methods
+  #   def app() Chitter end
+  # end
 
-  RSpec.configure { |c| c.include RSpecMixin }
+  # RSpec.configure { |c| c.include RSpecMixin }
 
 end

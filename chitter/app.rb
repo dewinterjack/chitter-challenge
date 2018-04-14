@@ -7,3 +7,5 @@ class Chitter < Sinatra::Base
     "Welcome to Chitter!"
   end
 end
+
+require_relative 'routes/init'
