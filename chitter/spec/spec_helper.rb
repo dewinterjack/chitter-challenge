@@ -12,7 +12,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
 ])
 
 SimpleCov.start do
-  add_filter './'
+  add_filter './spec'
 end
 
 require './app'
