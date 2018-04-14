@@ -52,7 +52,6 @@ GEM
     parallel (1.12.1)
     parser (2.4.0.2)
       ast (~> 2.3)
-    pg (1.0.0)
     powerpack (0.1.1)
     public_suffix (3.0.2)
     rack (2.0.4)
@@ -108,7 +107,6 @@ PLATFORMS
 DEPENDENCIES
   data_mapper
   dm-postgres-adapter
-  pg
   rack-test
   rake
   rspec
@@ -119,7 +117,7 @@ DEPENDENCIES
   sinatra
 
 RUBY VERSION
-   ruby 2.5.0p0
+   ruby 2.3.5p376
 
 BUNDLED WITH
    1.16.1

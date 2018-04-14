@@ -1,7 +1,10 @@
 require 'sinatra'
 require './helpers/db_setup_helper.rb'
 require './models/peep'
-DataMapper.auto_upgrade!
+
+configure do
+  Bookmark.auto_upgrade!
+end
 
 set :root, File.dirname(__FILE__)
 
